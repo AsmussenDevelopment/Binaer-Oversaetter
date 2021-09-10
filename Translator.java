@@ -23,7 +23,8 @@ public class Translator {
 
         char[] messChar = text.toCharArray();
 
-        for (int i = 0; i < messChar.length; i++) {
+        for(int i = 0; i < messChar.length; i++) {
+            
             translated += Integer.toBinaryString(messChar[i]) + " ";
         }
 
