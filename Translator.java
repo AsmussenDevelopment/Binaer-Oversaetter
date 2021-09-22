@@ -7,9 +7,9 @@ public class Translator {
         String translated = "";
         char nextChar;
 
-        for(int i = 0; i <= bits.length()-8; i += 8) {
+        for(int i = 0; i <= bits.length() - 8; i += 8) {
 
-            nextChar = (char) Integer.parseInt(bits.substring(i, i+8), 2);
+            nextChar = (char) Integer.parseInt(bits.substring(i, i + 8), 2);
             translated += nextChar;
         }
 
