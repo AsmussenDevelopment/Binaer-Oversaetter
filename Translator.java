@@ -1,4 +1,4 @@
-package dev.asmussen;
+package tech.asmussen;
 
 public class Translator {
 
