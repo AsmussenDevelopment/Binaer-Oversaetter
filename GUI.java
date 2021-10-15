@@ -1,4 +1,4 @@
-package dev.asmussen;
+package tech.asmussen;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
